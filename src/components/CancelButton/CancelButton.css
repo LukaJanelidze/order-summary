@@ -1,0 +1,15 @@
+#CancelButton {
+    color: #717FA6;
+    font-family: Red Hat Display;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    margin-top: 24px;
+}
+
+@media screen and (min-width: 1440px) {
+    #CancelButton {
+        cursor: pointer;
+    }
+}

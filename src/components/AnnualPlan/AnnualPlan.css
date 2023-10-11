@@ -1,0 +1,80 @@
+#AnnualPlan {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 279px;
+    height: 81px;
+    border-radius: 11px;
+    background: #F7F9FF;
+    padding: 16px;
+    margin-top: 24px;
+}
+
+#Music {
+    width: 48px;
+    height: 48px;
+}
+
+#AnnualPlanSpans {
+    display: flex;
+    flex-direction: column;
+    padding-right: 30px;
+}
+
+#AnnualPlanSpan-1 {
+    width: 88.662px;
+    color: #1F2E55;
+    font-family: Red Hat Display;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+}
+
+#AnnualPlanSpan-2 {
+    width: 81px;
+    color: #717FA6;
+    font-family: Red Hat Display;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+#Change {
+    color: #382AE1;
+    font-family: Red Hat Display;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-decoration-line: underline;
+}
+
+@media screen and (min-width: 1440px) {
+    #AnnualPlan {
+        width: 354px;
+        height: 98px;
+        padding: 24px;
+    }
+
+    #AnnualPlanSpans {
+        padding-right: 50px;
+    }
+
+    #AnnualPlanSpan-1 {
+        width: 117.19px;
+        font-size: 16px;
+    }
+
+    #AnnualPlanSpan-2 {
+        width: 92px;
+        font-size: 16px;
+    }
+
+    #Change {
+        font-size: 14px;
+        cursor: pointer;
+    }
+
+}
